@@ -4,7 +4,7 @@
 //データベースにログイン
 $dsn = "データベース名";
 $user = "ユーザ名";
-$password = 'パスワードメイ';
+$password = 'パスワード名';
 $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
 
 
